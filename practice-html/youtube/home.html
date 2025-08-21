@@ -1,10 +1,282 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
+<head>
     <title>Home</title>
-    <body>
-        
-    </body>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="left-section">
+            <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+            <img src="icons/youtube-logo.svg" class="youtube-logo" alt="YouTube Logo">
+        </div>
+        <div class="middle-section">
+            <input class="search" type="text" placeholder="Search">
+            <button class="search-button">
+                <img src="icons/search.svg" class="search-icon" alt="Search Icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="mic-button">
+                <img src="icons/voice-search-icon.svg" alt="Mic Icon">
+                <div class="tooltip">Voice input</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <img src="icons/upload.svg" class="upload-icon" alt="Upload Icon">
+            <img src="icons/youtube-apps.svg" class="youtube-apps" alt="YouTube Apps Icon">
+            <div class="notify">
+                <img src="icons/notifications.svg" class="notification-icon" alt="Notification Icon">
+                <span class="notification-count">3</span>
+            </div>
+            <img src="channel-pictures/my-channel.jpeg" class="my-channel" alt="My Channel Icon">
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg" class="home">
+                <div>Home</div>
+
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg" class="explore">
+                <div>Explore</div>
+
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg" class="subscriptions">
+                <div>Subscriptions</div>
+
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg" class="original">
+                <div>Originals</div>
+
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg" class="youtube-music">
+                <div>
+                    Youtube Music
+                </div>
+
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg" class="library">
+                <div>Library</div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumb">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+                <div class="duration">
+                    14.30
+                </div>
+
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-logo" src="channel-pictures/channel-1.jpeg" alt="Channel Logo">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-description">
+                        <p class="description">
+                            Tech Architect with <strong> Google CEO </strong> Sundar Pichai - Exclusive Interview
+                        </p>
+                    </div>
+                    <div class="author-column">
+                        <p class="author">
+                            Marques BrownLee
+                        </p>
+                    </div>
+                    <div>
+                        <p class="stats">
+                            1.2M views &#183 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="video-preview">
+            <div class="thumb">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.webp" />
+                <div class="duration">
+                    21.06
+                </div>
+
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-logo" src="channel-pictures/channel-2.jpeg" alt="Channel Logo">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-description">
+                        <p class="description">
+                            Try Not To Laugh Challenge with <strong> Elon Musk </strong> - Hilarious Moments!
+                        </p>
+                    </div>
+                    <div class="author-column">
+                        <p class="author">
+                            Alexa Skills
+                        </p>
+                    </div>
+                    <div>
+                        <p class="stats">
+                            4.6M views &#183 2 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="video-preview">
+            <div class="thumb">
+                <img class="thumbnail" src="thumbnails/thumbnail-5.webp" />
+                <div class="duration">
+                    14.30
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-logo" src="channel-pictures/channel-5.jpeg" alt="Channel Logo">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-description">
+                        <p class="description">
+                            Kadane's Algorithm Explained - Find the Maximum Subarray Sum
+                        </p>
+                    </div>
+                    <div class="author-column">
+                        <p class="author">
+                            Code Academy
+                        </p>
+                    </div>
+                    <div>
+                        <p class="stats">
+                            1.2M views &#183 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="video-preview">
+            <div class="thumb">
+                <img class="thumbnail" src="thumbnails/thumbnail-6.webp" />
+                <div class="duration">
+                    8.09
+                </div>
+
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-logo" src="channel-pictures/channel-6.jpeg" alt="Channel Logo">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-description">
+                        <p class="description">
+                            Anything you can fit in the circle, I will pay for it - Challenge
+                        </p>
+                    </div>
+                    <div class="author-column">
+                        <p class="author">
+                            Mr Beast
+                        </p>
+                    </div>
+                    <div>
+                        <p class="stats">
+                            14.6M views &#183 2 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="video-preview">
+            <div class="thumb">
+                <img class="thumbnail" src="thumbnails/thumbnail-3.webp" />
+                <div class="duration">
+                    21.47
+                </div>
+
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-logo" src="channel-pictures/channel-3.jpeg" alt="Channel Logo">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-description">
+                        <p class="description">
+                            Crazy Tik Tok Moments with - Hilarious Compilation
+                        </p>
+                    </div>
+                    <div class="author-column">
+                        <p class="author">
+                            Clinda Johnson
+                        </p>
+                    </div>
+                    <div>
+                        <p class="stats">
+                            9.2M views &#183 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="video-preview">
+            <div class="thumb">
+                <img class="thumbnail" src="thumbnails/thumbnail-4.webp" />
+                <div class="duration">
+                    10.30
+                </div>
+
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="channel-logo" src="channel-pictures/channel-4.jpeg" alt="Channel Logo">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-description">
+                        <p class="description">
+                            The Simplest Math Problem No One Can Solve
+                        </p>
+                    </div>
+                    <div class="author-column">
+                        <p class="author">
+                            Math solver
+                        </p>
+                    </div>
+                    <div>
+                        <p class="stats">
+                            6.6M views &#183 9 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
 </html>
